@@ -1,6 +1,6 @@
 # Can we predict performance in the NCAA men's basketball tournament based on team statistics?
 
-It's March! and sports fans across the USA are filling in brackets. The NCAA Men's Basketball Tournament, also know as March Madness is an annual 64 team single-elimination tournament held to determine a national champion. Can a linear model help fans fill in their brackets?
+It's March! and college basketball fans across the USA are filling in their brackets. The NCAA Men's Basketball Tournament, also know as March Madness is an annual 64 team single-elimination tournament held to determine a national champion. Can a linear model help fans predict the winners?
 
 ## Table of Contents
 1. [Dataset](#dataset)
@@ -17,10 +17,10 @@ It's March! and sports fans across the USA are filling in brackets. The NCAA Men
 
 ## Dataset
 
+All data was collected from the Sport Reference College Basketball Website.(https://www.sports-reference.com/cbb/).  The  CSV files contained the data I needed, except for number of NCAA Tournament Wins, which I pulled from a different location on the same website.
 
-
-<img alt="Example of tumor segmentation overlay on T2" src="images/segmented_slice.png" width='400'>  
-<sub><b>Figure 1: </b> Ground truth segmentation overlay on a T2 weighted scan. </sub>   
+<img alt="/Team Stats" src="images/sports_reference_cbb.png" width='400'>  
+<sub><b>Figure 1: </b> Data collected from www.sports-reference.com/cbb/ </sub>   
 
 
 ## Tournament Background
